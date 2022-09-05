@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(243, 149, 207) ;
+}
+#container{
+    height: 500px;
+    width: 45%;
+    margin: 50px auto;
+    border: 1px solid aqua;
+    background-color: aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+#container>h1{
+    margin-top: 10px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#container>a{
+    /* color: red; */
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+   margin-top: 10px;
+
+}
+.icon>i{
+    font-size: 30px;
+    color: blue;
+   margin: 10px;
+}
+.icon>a{
+font-size: 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: none;
+color: blue;
+}
+
+
+
+#main{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imgBox{
+    background-image: url('strg.jpeg');
+    height: 90%;
+    width: 90%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.whiteBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+.hold{
+    border: 5px solid tomato;
+}
+
+.dashed{
+    background: rgb(214, 206, 206);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}
